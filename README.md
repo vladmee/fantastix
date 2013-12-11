@@ -1,6 +1,7 @@
 fantastix
 =========
 Retea de socializare bazata pe grupuri.
+
 Aplicatie web ce permite utilizatorilor sa gaseasca persoane cu aceleasi pasiuni ca si ei.
 
 Dupa completarea datelor personale si adaugarea pozei de profil, vei avea acces la nenumarate liste continand lucruri, activitati, persoane publice, domenii de interes. Utilizatorul poate alege un numar nelimitat de cuvinte din aceste lista, fiecare reprezentand un grup. 
