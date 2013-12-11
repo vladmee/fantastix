@@ -17,8 +17,9 @@ Nu vor exista cereri de prietenie, comunicarea se va face pe grupuri, desi va ex
 
 Structura siteului:
 Home(nelogat) > formular de inscriere, header camp de login
+
 Home(logat) > ultimele postari din primul grupul(sau cel selectat favorit) 
-                      - la inregistrare vei fi oblicat sa alegi cel putin un grup
+- la inregistrare vei fi oblicat sa alegi cel putin un grup
                       - partea stanga > profilul tau, grupuri - top rated, setari
                       - partea dreapta >  notificari despre ultimele postari
                       - partea de sus >  taburile cu grupurile
