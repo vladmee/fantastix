@@ -1,4 +1,6 @@
 Fantastix::Application.routes.draw do
+  resources :account_groups
+
   resources :accounts_groups
 
   resources :posts

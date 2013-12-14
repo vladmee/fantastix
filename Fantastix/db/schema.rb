@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20131214100123) do
+ActiveRecord::Schema.define(version: 20131214101450) do
 
   create_table "accounts", force: true do |t|
     t.integer  "account_id"
@@ -21,13 +21,6 @@ ActiveRecord::Schema.define(version: 20131214100123) do
     t.string   "username"
     t.string   "email"
     t.string   "avatar"
-    t.datetime "created_at"
-    t.datetime "updated_at"
-  end
-
-  create_table "accounts_groups", force: true do |t|
-    t.integer  "account_id"
-    t.integer  "group_id"
     t.datetime "created_at"
     t.datetime "updated_at"
   end
