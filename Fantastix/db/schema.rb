@@ -21,7 +21,6 @@ ActiveRecord::Schema.define(version: 20131214113312) do
   end
 
   create_table "accounts", force: true do |t|
-    t.integer  "account_id"
     t.string   "account_type"
     t.string   "first_name"
     t.string   "last_name"
@@ -45,7 +44,6 @@ ActiveRecord::Schema.define(version: 20131214113312) do
   add_index "accounts", ["reset_password_token"], name: "index_accounts_on_reset_password_token", unique: true
 
   create_table "groups", force: true do |t|
-    t.integer  "group_id"
     t.string   "group_name"
     t.text     "description"
     t.datetime "created_at"
@@ -53,7 +51,6 @@ ActiveRecord::Schema.define(version: 20131214113312) do
   end
 
   create_table "posts", force: true do |t|
-    t.integer  "post_id"
     t.string   "title"
     t.text     "content"
     t.datetime "date"
