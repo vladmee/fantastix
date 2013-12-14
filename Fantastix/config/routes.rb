@@ -1,11 +1,14 @@
 Fantastix::Application.routes.draw do
-  
-root to: "static_page#home"
 
-match "about", to: "static_page#about" , via: :get
-match "contact", to: "static_page#contact" , via: :get
+ devise_for :accounts
 
-  devise_for :accounts
+# root route 
+root to: "static_pages#home"
+
+match 'about', to: 'static_pages#about' , via: :get
+match 'contact', to: 'static_pages#contact' , via: :get
+
+ 
   resources :account_groups
 
   resources :posts
