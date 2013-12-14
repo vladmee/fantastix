@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  account_id: 1
+  account_type: MyString
+  first_name: MyString
+  last_name: MyString
+  username: MyString
+  email: MyString
+  avatar: MyString
+
+two:
+  account_id: 1
+  account_type: MyString
+  first_name: MyString
+  last_name: MyString
+  username: MyString
+  email: MyString
+  avatar: MyString

@@ -1,0 +1,29 @@
+<h1>Listing accounts_groups</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Account</th>
+      <th>Group</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @accounts_groups.each do |accounts_group| %>
+      <tr>
+        <td><%= accounts_group.account_id %></td>
+        <td><%= accounts_group.group_id %></td>
+        <td><%= link_to 'Show', accounts_group %></td>
+        <td><%= link_to 'Edit', edit_accounts_group_path(accounts_group) %></td>
+        <td><%= link_to 'Destroy', accounts_group, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Accounts group', new_accounts_group_path %>
