@@ -1,6 +1,6 @@
 Fantastix::Application.routes.draw do
   
-root to "static_page#home"
+root to: "static_page#home"
 
 match "about", to: "static_page#about" , via: :get
 match "contact", to: "static_page#contact" , via: :get
